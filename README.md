@@ -39,8 +39,6 @@ The one thing the model currently misses is mixing the LSTM with pricing models 
 
 ![Screenshot 2024-01-14 175748](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/f72a6938-f581-426a-ba2a-99250336670c)
 
-![Screenshot 2024-01-14 175807](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/9ae1f3c0-c5f9-4a99-b1c7-379da358e4b4)
-
    </li>
    <li>
       <h3>Simple LSTM model</h3>
@@ -53,6 +51,12 @@ The one thing the model currently misses is mixing the LSTM with pricing models 
    </li>
    <li>
       <h3>Twitter based LSTM model</h3>
+      We now come to a model that we wish to introduce becaus we wish to analyse how social media platforms tend to affect and produce noise in the efficient pricing of the model. In this model I am not trying to predict future using the NLP and LSTM techniques but rather a model that will take up furthur twitter data and predict the movement of price in the system using the model That is trained on the previous data. For this model I am only analysing one stock price, i.e., Apple. My initial intention was to make a model for the tickers in our portfolio and then involve their individual contributions to the systems in the fluctuations, but since the twitter API key and secret acess was paid and hence was quite hard to access it, I managed to find out the scrapped data and use that for the finding. I am planning on making a model to scrape out this data and a bot that can do this for keywords of tickers to get the sentiment analysis of a multitude of such stocks, I have made a model to extract out the polarity and subjectivity and then extract out the pattern of movement of price accordingly. But until then we can use the present scrapped and prepared data to perform our analysis.
+
+      In this model I have tried to get the maximum mimicking of the price since we are try to achieve the inefficiency of the information integration in the price to be actually visible through the model. In this model I have tried to balance it out by introducing dropout layer as well. In this model I have achieved some significant predictive power based on the sentiment of tweets and along with that I have also tried to include the model that we developed ourselves that is quite capable to provide an idea of the eficient price of the commodity. Althought the LSTM model of effecient price is undervaluing the commodity as ideally it should be passing through all the noises and inconsistencies of the actual prices but we can develop a model to effectively and efficiently price the commodity by maybe taking some inspirations from pricing models using cash flows of future. The following is the result - 
+
+![Screenshot 2024-01-15 002252](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/28c118c6-cc05-4e5a-be7c-024b74546a95)
+
    </li>
    <li>
       <h3> Twitter based Ensemble Classification and Regression model</h3>
