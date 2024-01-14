@@ -30,8 +30,25 @@ The one thing the model currently misses is mixing the LSTM with pricing models 
 ![Screenshot 2024-01-14 174544](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/e4296a13-29ed-4980-b01f-e6c25895326d)
       
    </li>
+</ol>
+<h2>Predictive models to Analyse the trend and predict the trend for future</h2>
+<ol>
    <li>
-      <h3> </h3>
+      <h3> Simple model for inspiration (generated)</h3>
+   </li>
+   <li>
+      <h3>Simple LSTM model</h3>
+   </li>
+   <li>
+      <h3>Twitter based LSTM model</h3>
+   </li>
+   <li>
+      <h3> Twitter based Ensemble Classification and Regression model</h3>
+   </li>
+   <li>
+      <h3>LSTM and GRU based model</h3>
+   </li>
+   <li>
+      <h3>FB Prophet based model</h3>
    </li>
 </ol>
- 
