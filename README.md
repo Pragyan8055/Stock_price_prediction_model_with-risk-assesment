@@ -35,9 +35,21 @@ The one thing the model currently misses is mixing the LSTM with pricing models 
 <ol>
    <li>
       <h3> Simple model for inspiration (generated)</h3>
+      This is perhaps the simplest model where I have tried to identified how can I form the layers oof an LSTM model, I used generative AI to form this model and of course it is not the best model to predict prices as it needs to be adjusted for quite a lot of things. It is a single unit and I dense layer model and does not capture a lot of intricasies from data and predicts the test values a bit too well, we may say that it can be overfitted since it mimics the pattern a bit too well, but we can assume from this model that we can figure out a basic layout for our structure of the LSTM layers. We can see the outputs of the below model as follows -
+
+![Screenshot 2024-01-14 175748](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/f72a6938-f581-426a-ba2a-99250336670c)
+
+![Screenshot 2024-01-14 175807](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/9ae1f3c0-c5f9-4a99-b1c7-379da358e4b4)
+
    </li>
    <li>
       <h3>Simple LSTM model</h3>
+      In this model we finally make a model that is well written atleast to my knowledge, I have tried to first make a portfolio of stock as before, it does not overfit the testing data but it very well approximates it and we can see that in the testing, wehave made a model with 3 LSTM gates and a dense layer, I could have added a layer for dropout but I belive that the model is doing a fine job at predicting. While predicting the future values we can see that the model is giving us a relatively stable price and is not fluctuatinga lot (like noise in the system) and we can say that the model is pretty close to an efficient price in the system. 
+
+![Screenshot 2024-01-14 235529](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/6d7b0fe3-405c-46f7-b16d-8540529bed3c)
+
+![Screenshot 2024-01-14 235546](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/b8a56a69-22bc-47dd-892e-d0384116f49d)
+
    </li>
    <li>
       <h3>Twitter based LSTM model</h3>
