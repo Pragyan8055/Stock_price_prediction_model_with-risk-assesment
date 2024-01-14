@@ -72,6 +72,10 @@ In this model I have tried to get the maximum mimicking of the price since we ar
    </li>
    <li>
       <h3>FB Prophet based model</h3>
+      In the prophet model ther are a lot of analysis and findings that can be acessed via opeing the file. coding the initial model was quite easy and we only have to feed the data of prices but the model was not performing up to the mark, the model was able to predict the trend but yet it failed in capturing the approximate efficient price by quite a margin, at the end by tweaking the model and studying it's weekly and yearly performance the model improved for rediction and we had a decent model that did predict the general trend at a presumably efficient pricing. We can research on it a bit too and can expect something more but I personally think an LSTM model may be improved more to get a more better model.
+      
+![Screenshot 2024-01-15 004441](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/05b0e54a-5767-41a5-b261-5e82b28d811e)
+
    </li>
 </ol>
 
