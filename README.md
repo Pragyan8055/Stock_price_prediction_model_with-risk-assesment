@@ -10,3 +10,18 @@ We are try to predict using twitter data because it is getting crucial for marke
 A model that allows arbitragers with enough information to predict the inefficient price and the efficient price(here simply with LSTM, but can accompany with more pricing models to improve efficient pricing) can help lock a greater margin of profit than after the market has adapted to the inefficiency.
 The one thing the model currently misses is mixing the LSTM with pricing models to give a better look at the efficient price of the stock, but currently I have tried to make the model as efficient as possible, I have made various analysis to help analyse the bullish and the bearish views of the market and made a lot of analysis on time series, moving average and Fourier analysis to derive the causal inferences from the model, I have also made a very simple LSTM model using chat-gpt to get an idea what to do and made furthur models taking inspirations from that model.
 
+<h2>Models for Analysis</h2>
+<ol>
+   <li>
+   <h3>MA and Time Embedded Transformer model</h3>
+      ![Screenshot 2024-01-14 171206](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/63ac7d65-beee-4d57-96e1-76e9ea6588b7)
+
+   In this model I have trid to plot a very basic multi attention layered model that involves Transformers and Time embeddings to get a an approximate of the efficient pricing, and tovisualize the noies in the system, the methodology involves encoding an decoding the data. Although I am quite skeptical of how well it captures the efficiency of prices but it does give a very naive idea that without noises the time embedding model ha learned and captured the backbone of the model and we can see the actual price moves quite a lot that involves the inefficiencies an noises that are added that are beyond the periphery of this system. 
+   ![Screenshot 2024-01-14 171226](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/362e475d-de8a-44e8-865f-2eafca300f1e)
+
+   </li>
+   <li>
+      <h3>Fourier and moving average analysis</h3>
+   </li>
+</ol>
+ 
