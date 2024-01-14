@@ -69,6 +69,10 @@ In this model I have tried to get the maximum mimicking of the price since we ar
    </li>
    <li>
       <h3>LSTM and GRU based model</h3>
+      I believe off all the models the GRU and LSTM based model underperforms the most, as it was not able to capture the important trend of the data. It most probably was not coded well enough and thus has a potential for immense improvement amongst all other models. In this model I have not used my algorithm to generate a portfolio with allocated weights, but have used the AAPL stock values to analyze the trend of it's stock value. 
+
+![Screenshot 2024-01-15 005651](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/7bd75c31-1ef0-4747-8695-7434aec1cc8c)
+
    </li>
    <li>
       <h3>FB Prophet based model</h3>
