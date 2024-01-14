@@ -14,7 +14,7 @@ The one thing the model currently misses is mixing the LSTM with pricing models 
 <ol>
    <li>
    <h3>MA and Time Embedded Transformer model</h3>
-      ![Screenshot 2024-01-14 171206](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/63ac7d65-beee-4d57-96e1-76e9ea6588b7)
+   ![Screenshot 2024-01-14 171206](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/63ac7d65-beee-4d57-96e1-76e9ea6588b7)
 
    In this model I have trid to plot a very basic multi attention layered model that involves Transformers and Time embeddings to get a an approximate of the efficient pricing, and tovisualize the noies in the system, the methodology involves encoding an decoding the data. Although I am quite skeptical of how well it captures the efficiency of prices but it does give a very naive idea that without noises the time embedding model ha learned and captured the backbone of the model and we can see the actual price moves quite a lot that involves the inefficiencies an noises that are added that are beyond the periphery of this system. 
    ![Screenshot 2024-01-14 171226](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/362e475d-de8a-44e8-865f-2eafca300f1e)
