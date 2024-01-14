@@ -23,6 +23,15 @@ The one thing the model currently misses is mixing the LSTM with pricing models 
 
    <li>
       <h3>Fourier and moving average analysis</h3>
+      In the fourier and time series analysis of our portfolio we have tried to make a few models with some parameters and see thow well they fit into the pricing model and see how well they account for the portfolio prices going up or down. We see that a 10 day MA model seemed to mimic the price history in a better manner than a very heavy 200 day model that was very much like the Multi attention transformer and time embedded model. For fourier model we see that 100 component fourier model was best at mimicking the model but I am not sure if the model could be used to predict the efficient pricing system since such a model may deviate heavily some time than efficiently valuate the correct price of the stock portfolio. i have not done individual analysis of stocks in our portfolio as it might take a lot more ime but I certainly have alloted each a well tuned weight and aggregated their contribution to portfolio well aligned with their weightage.
+      
+![Screenshot 2024-01-14 174522](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/fce2959f-2f51-4e97-b501-323bdf910e81)
+
+![Screenshot 2024-01-14 174544](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/e4296a13-29ed-4980-b01f-e6c25895326d)
+      
+   </li>
+   <li>
+      <h3> </h3>
    </li>
 </ol>
  
