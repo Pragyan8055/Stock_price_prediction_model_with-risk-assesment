@@ -3,3 +3,6 @@ In this file I have tried to make multiplr models to perform the causal analysis
 <ul>
    <li>A simple LSTM Model</li><li>Twitter based LSTM model</li><li>Twitter based regression and classification</li><li>Prophet based model</li><li>An LSTM+GRU based model</li><li>Fourier and TS Analysis</li><li>MA model</li>
 </ul>
+
+<h1>Motivation of Twitter based model</h1>
+
