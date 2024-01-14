@@ -52,3 +52,10 @@ The one thing the model currently misses is mixing the LSTM with pricing models 
       <h3>FB Prophet based model</h3>
    </li>
 </ol>
+
+<h1>Ending note</h1>
+To lastly say, in a market, if we expect high efficiency liquidity, a dumb investor and a well informed with all information, should all stand at one even level (which infact is saying that the market must be of weak-form), and SEBI does make sure that no person marks an abnormal profit because of asymettric information. To maintain the efficiency of the market which allows the expectation of price tomorrow to be equal to today, to make sure that markets stay unpredictable and no person misuses personal info (i.e., makes the market of semi-strong form).
+
+But this assumption is quite ideal in nature, and hence can't be taken for granted. Although the integration of information of commodity on price has reduced because of technology but it has also helped us gain an insight about the possibility of harnessing this data to benefit from markets in a window of minutes or maybe fractions of second. We can always, with right technology favour for ourselves a market of semi-strong form with the help of insigtful data extraction. Data is the petrol of 21st century and with machine learning technology we can exploit these inefficiencies in a way that was not possible earlir, irrespective of how well the market adapts.
+
+In future I would love to develop a reinforment learning based model that does not only combine the above models to give an adjusted price but also help mark the long nd short positions in long term and short term strategy. 
