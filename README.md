@@ -59,6 +59,13 @@ In this model I have tried to get the maximum mimicking of the price since we ar
    </li>
    <li>
       <h3> Twitter based Ensemble Classification and Regression model</h3>
+      In this approach the twitter polarity scores were used to classify tweets into positive, negative and neutral sentiment. The adjusted closing prices of Apple stock were converted to a binary form (0 and 1), where 0 means that the value of the company stock price is less than the day before, and 1 means that the value is greater than the day before. This provided a trend for stock price movement. Some of the models used for predictions are Random Forrest method and Gradient boosting methods. 
+      In this approach the twitter polarity scores, twitter volume and the adjusted closing prices were used to predict the future movement in Apple stock price. The adjusted closing prices data was stuctured such that previous time steps were used as input variables and the next time step as the output variable. Algorithms used for this purpose are Random forrest regressor and XGBoost Regressor.
+
+![Screenshot 2024-01-15 003745](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/0fdd2da7-15d8-4aed-8737-69306c0732df)
+
+![Screenshot 2024-01-15 003808](https://github.com/Pragyan8055/Stock_price_prediction_model_with-risk-assesment/assets/126716148/7c84f652-f3de-4780-a74e-3e4b3178480f)
+
    </li>
    <li>
       <h3>LSTM and GRU based model</h3>
